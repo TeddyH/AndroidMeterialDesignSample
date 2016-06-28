@@ -1,0 +1,32 @@
+<resources>
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" />-->
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/primary_my_theme</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/primary_dark_my_theme</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated, which is used to tint widgets -->
+        <item name="colorAccent">@color/accent_my_theme</item>
+        <!--<item name="android:textColorPrimary">@color/primary_text_my_theme</item>-->
+        <item name="android:typeface">sans</item>
+        <!--<item name="android:textColor">@color/text_my_theme</item>-->
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+    </style>
+
+    <!--<style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">-->
+        <!--<item name="spinBars">true</item>-->
+        <!--<itme name="color">@android:color/white</itme>-->
+    <!--</style>-->
+    <style name="Theme.MyTheme.PopupTheme" parent="ThemeOverlay.AppCompat.Light">
+    </style>
+
+    <!--<style name="ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">-->
+        <!--<item name="android:textColor">@android:color/white</item>-->
+        <!--<item name="android:textSize">18sp</item>-->
+        <!--<item name="android:layout_gravity">center</item>--> <!-- 적용 안됨 -->
+    <!--</style>-->
+
+</resources>

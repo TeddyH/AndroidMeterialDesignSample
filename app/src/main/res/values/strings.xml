@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TeddysToy</string>
+
+    <string name="main_font">SANS_SERIF</string>
+    <string name="custom_font">font/Roboto-Medium.ttf</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_item_1">navigation_item_1</string>
+    <string name="navigation_item_2">navigation_item_2</string>
+    <string name="title_activity_coordinator_layout">CoordinatorLayoutActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_coordinator_layout_with_tab">CoordinatorLayoutWithTabActivity
+    </string>
+    <string name="title_activity_tab_layout">TabLayoutActivity</string>
+</resources>
