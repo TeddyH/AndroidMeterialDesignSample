@@ -16,23 +16,19 @@
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name="com.brainpg.teddystoy.activity.CoordinatorLayoutActivity"
-            android:label="@string/title_activity_coordinator_layout"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.brainpg.teddystoy.activity.CoordinatorLayoutWithTabActivity"
-            android:label="@string/title_activity_coordinator_layout_with_tab"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.brainpg.teddystoy.activity.TabLayoutActivity"
-            android:label="@string/title_activity_tab_layout"
             android:theme="@style/Theme.AppCompat.Light"
             android:screenOrientation="portrait" >
         </activity>
